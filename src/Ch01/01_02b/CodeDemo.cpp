@@ -9,6 +9,16 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello World" << endl;
+    int num1, num2, result;
+
+    cout << "Enter first number: " << endl;
+    cin >> num1;
+    cout << "Enter second number: " << endl;
+    cin >> num2;
+
+    result =  num1 + num2;
+
+    cout << result << endl;
+
     return 0;
 }
